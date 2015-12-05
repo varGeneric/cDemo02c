@@ -26,6 +26,9 @@
     int movement1_duration = 1000;
     int movement2_duration = 4000;
     
+    syscall(cleardisplay, "");
+    syscall(setcursorstartx, itos(10));
+    syscall(setcursorstartx, itos(10));
     syscall(drawtext, "Hello World");
     
     while (tmp <= 5){
