@@ -25,6 +25,8 @@
     int movement1_duration = 1;
     int movement2_duration = 1000;
     
+    syscall(setpaneltext, "This is my robot, \nThere are many like it, \nBut this one is mine");
+    
     syscall(motorleftset,  itos(100));
     syscall(motorrightset,  itos(100));
     
