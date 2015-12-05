@@ -23,8 +23,8 @@
 
     int tmp = 0;
     int movement1_direction = 0;
-    int movement1_duration = 1000;
-    int movement2_duration = 4000;
+    int movement1_duration = 0;
+    int movement2_duration = 0;
     
     syscall(cleardisplay, "");
     syscall(setcursorstartx, itos(0));
@@ -44,6 +44,7 @@
     syscall(drawtext, "Mine!");
     
     while (tmp <= 5){
+        break;
         tmp++;
         
         syscall(motorleftset,  itos(100));
