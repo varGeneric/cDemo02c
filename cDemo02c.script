@@ -37,7 +37,7 @@
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(20));
-    syscall(drawtext, "It, but this one is mine!");
+    syscall(drawtext, "It, but this one is ");
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(30));
