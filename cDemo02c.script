@@ -21,16 +21,21 @@
 //           - Repeat the previous five steps with right Motor = 0 (turning on track)
 //           - Repeat the previous five steps with right Motor = -100 (turning on its central axis)
 
+    int tmp = 0;
     int movement1_direction = 0;
     int movement1_duration = 1;
     int movement2_duration = 4000;
     
     syscall(drawline, "Hello World");
     
-    syscall(motorleftset,  itos(100));
-    syscall(motorrightset,  itos(100));
-    
-    syscall(delay, itos(movement1_duration));
+    while (tmp <= 5){
+        tmp++
+        
+        syscall(motorleftset,  itos(100));
+        syscall(motorrightset,  itos(100));
+        
+        syscall(delay, itos(movement1_duration));
+    }
     
     syscall(motorleftset,  itos(0));
     syscall(motorrightset,  itos(100));
