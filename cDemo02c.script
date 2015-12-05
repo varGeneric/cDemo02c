@@ -32,7 +32,7 @@
     syscall(drawtext, "This is my bot,");
     
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(50));
+    syscall(setcursorstarty, itos(10));
     syscall(drawtext, "There are many like it, ");
     
     while (tmp <= 5){
