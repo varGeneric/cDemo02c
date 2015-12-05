@@ -23,7 +23,7 @@
 
     int movement1_direction = 0;
     int movement1_duration = 0;
-    int movement2_duration = 4000;
+    int movement2_duration = 1000;
     
     syscall(motorleftset,  itos(100));
     syscall(motorrightset,  itos(100));
