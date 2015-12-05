@@ -23,11 +23,17 @@
 
     int movement1_direction = 0;
     int movement1_duration = 5000;
+    int movement2_duration = 2000;
     
     syscall(motorleftset,  itos(100));
     syscall(motorrightset,  itos(100));
     
     syscall(delay, itos(movement1_duration));
+    
+    syscall(motorleftset,  itos(0));
+    syscall(motorrightset,  itos(100));
+    
+    syscall(delay, itos(movement2_duration));
     
     syscall(motorset, "0:0");
 
