@@ -27,9 +27,9 @@
     int movement2_duration = 4000;
     
     syscall(cleardisplay, "");
-    syscall(setcursorstartx, itos(0));
     syscall(setcursorstartx, itos(10));
-    syscall(drawtext, "Hello World");
+    syscall(setcursorstartx, itos(10));
+    syscall(drawtext, "This is my bot, \nThere are many like it, \nBut this one is mine!");
     
     while (tmp <= 5){
         tmp++;
