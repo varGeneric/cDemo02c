@@ -26,6 +26,7 @@
     int movement1_duration = 1000;
     int movement2_duration = 4000;
     
+    syscall(setcursorstart, 10,10)
     syscall(drawline, "Hello World");
     
     while (tmp <= 5){
