@@ -29,7 +29,7 @@
     syscall(drawline, "Hello World");
     
     while (tmp <= 5){
-        tmp++
+        tmp++;
         
         syscall(motorleftset,  itos(100));
         syscall(motorrightset,  itos(100));
