@@ -21,7 +21,17 @@
 //           - Repeat the previous five steps with right Motor = 0 (turning on track)
 //           - Repeat the previous five steps with right Motor = -100 (turning on its central axis)
 
-    syscall(motorleftset,  itos(100));   //  Left Motor  =  100 = Full Forwards
+    int movement1_direction = 0;
+    int movement1_duration = 1000;
+    
+    syscall(motorleftset,  itos(100));
+    syscall(motorrightset,  itos(100));
+    
+    syscall(delay, itos(movement1_duration));
+    
+    syscall(motorset, "0:0");
+
+    /*syscall(motorleftset,  itos(100));   //  Left Motor  =  100 = Full Forwards
     syscall(motorrightset, itos(33));    //  Right Motor =   33 = 1/3 Forwards
 
     syscall(delay, itos(1000));    //  Delay for 1,000ms = 1s
@@ -47,3 +57,4 @@
     syscall(delay, itos(1000));    
 
     syscall(motorset, "0:0");      
+*/
