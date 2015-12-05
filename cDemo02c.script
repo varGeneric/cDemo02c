@@ -48,8 +48,8 @@
     while (1){
     ypos = ypos+1;
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(ypos +5));
-    syscall(drawtext, "99999999999999999999999999999999999999999999999999999999999999");
+    syscall(setcursorstarty, itos(ypos));
+    syscall(drawtext, "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
         
     }
     
