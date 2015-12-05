@@ -22,8 +22,8 @@
 //           - Repeat the previous five steps with right Motor = -100 (turning on its central axis)
 
     int movement1_direction = 0;
-    int movement1_duration = 5000;
-    int movement2_duration = 2000;
+    int movement1_duration = 0;
+    int movement2_duration = 4000;
     
     syscall(motorleftset,  itos(100));
     syscall(motorrightset,  itos(100));
