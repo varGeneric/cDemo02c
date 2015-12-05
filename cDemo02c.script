@@ -29,15 +29,15 @@
     syscall(cleardisplay, "");
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(5));
-    syscall(drawtext, "This is my bot,");
+    syscall(drawtext, "9999999999999999999999999999999999999999999999999");
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(15));
-    syscall(drawtext, "There are many like ");
+    syscall(drawtext, "999999999999999999999999999999999999999999999");
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(25));
-    syscall(drawtext, "It, but this one is ");
+    syscall(drawtext, "999999999999999999999999999999999999999999999999999999");
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(35));
