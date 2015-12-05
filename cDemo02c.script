@@ -23,7 +23,7 @@
 
     int movement1_direction = 0;
     int movement1_duration = 1;
-    int movement2_duration = 1000;
+    int movement2_duration = 4000;
     
     syscall(drawline, "Hello World");
     
