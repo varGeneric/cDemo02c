@@ -23,8 +23,8 @@
 
     int tmp = 0;
     int movement1_direction = 0;
-    int movement1_duration = 0;
-    int movement2_duration = 0;
+    int movement1_duration = 1;
+    int movement2_duration = 1;
     
     syscall(cleardisplay, "");
     syscall(setcursorstartx, itos(0));
