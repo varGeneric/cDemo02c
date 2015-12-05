@@ -33,7 +33,11 @@
     
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(10));
-    syscall(drawtext, "There are many like it, ");
+    syscall(drawtext, "There are many like ");
+    
+    syscall(setcursorstartx, itos(0));
+    syscall(setcursorstarty, itos(20));
+    syscall(drawtext, "it, but this one is mine!");
     
     while (tmp <= 5){
         tmp++;
