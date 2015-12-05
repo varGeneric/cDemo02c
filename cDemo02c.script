@@ -45,7 +45,7 @@
     
     int ypos = 0;
     
-    while (true){
+    while (1){
     ypos = ypos+10;
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(ypos +5));
