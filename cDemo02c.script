@@ -34,7 +34,7 @@
     ypos = ypos+1;
     syscall(setcursorstartx, itos(0));
     syscall(setcursorstarty, itos(ypos));
-    syscall(drawtext, "Buffer Overflow!!!");
+    syscall(drawtext, "Help I am falling!!!");
         
     }
     
