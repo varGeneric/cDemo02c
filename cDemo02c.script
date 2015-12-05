@@ -27,21 +27,6 @@
     int movement2_duration = 1;
     
     syscall(cleardisplay, "");
-    syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(5));
-    syscall(drawtext, "9999999999999999999999999999999999999999999999999");
-    
-    syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(15));
-    syscall(drawtext, "999999999999999999999999999999999999999999999");
-    
-    syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(25));
-    syscall(drawtext, "999999999999999999999999999999999999999999999999999999");
-    
-    syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(35));
-    syscall(drawtext, "99999999999999999999999999999999999999999999999999999999999999");
     
     int ypos = 0;
     
