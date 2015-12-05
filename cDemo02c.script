@@ -21,6 +21,9 @@
 //           - Repeat the previous five steps with right Motor = 0 (turning on track)
 //           - Repeat the previous five steps with right Motor = -100 (turning on its central axis)
 
+    meta("icon",                "pgmDemo1.b");
+    meta("description",         "My C Program");
+
     int movement1_direction = 0;
     int movement1_duration = 1;
     int movement2_duration = 1000;
