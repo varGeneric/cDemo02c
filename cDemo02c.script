@@ -28,19 +28,19 @@
     
     syscall(cleardisplay, "");
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(0));
+    syscall(setcursorstarty, itos(5));
     syscall(drawtext, "This is my bot,");
     
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(10));
+    syscall(setcursorstarty, itos(15));
     syscall(drawtext, "There are many like ");
     
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(20));
+    syscall(setcursorstarty, itos(25));
     syscall(drawtext, "It, but this one is ");
     
     syscall(setcursorstartx, itos(0));
-    syscall(setcursorstarty, itos(30));
+    syscall(setcursorstarty, itos(35));
     syscall(drawtext, "Mine!");
     
     while (tmp <= 5){
